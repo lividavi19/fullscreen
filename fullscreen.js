@@ -13,7 +13,7 @@ const goFullscreen = (fullscreenElement, successCallback) => {
 
 const exitFullscreen = (successCallback) => {
 	document.exitFullscreen().then(() => {
-		// element exits full screen
+		// document exits full screen
 		successCallback();
 	})
 };
