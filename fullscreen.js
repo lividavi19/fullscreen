@@ -6,14 +6,14 @@
 
 const goFullscreen = (fullscreenElement, successCallback) => {
 	fullscreenElement.requestFullscreen().then(() => {
-		// fullscreenElement is in full screen
+		// fullscreenElement is in fullscreen mode
 		successCallback();
 	})
 };
 
 const exitFullscreen = (successCallback) => {
 	document.exitFullscreen().then(() => {
-		// document exits full screen
+		// document exits fullscreen mode
 		successCallback();
 	})
 };
